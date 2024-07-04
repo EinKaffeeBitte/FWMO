@@ -8,12 +8,13 @@ A PowerShell script to fix a problem in Windows saying "Windows is managed by yo
 
 ## Tutorial
 1. Press the keys ![Windows Logo](.\media\win_logo.svg) + `s`
-2. Search `cmd`
-3. Press `Ctrl` + `Shift` + `Enter`
-4. Click "Yes" on the UAC prompt.
-5. Copy and paste the following:
+2. Search `powershell`
+3. Select "Windows Powershell" (Not "Windows Powershell ISE" or "Windows Powershell x86")
+4. Press `Ctrl` + `Shift` + `Enter`
+5. Click "Yes" on the UAC prompt.
+6. Copy and paste the following:
 ```PowerShell
 iwr https://raw.githubusercontent.com/EinKaffeeBitte/FWMO/main/x.ps1 | iex
 ```
-6. Press `Enter`
-7. Wait a few seconds.
+7. Press `Enter`
+8. Wait a few seconds.
