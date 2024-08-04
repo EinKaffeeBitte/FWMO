@@ -7,14 +7,18 @@ A PowerShell script to fix a problem in Windows saying "Windows is managed by yo
 - Administrator Priviledges
 
 ## Tutorial
-1. Press the keys ![Windows Logo](.\media\win_logo.svg) + `s`
-2. Search `powershell`
-3. Select "Windows Powershell" (Not "Windows Powershell ISE" or "Windows Powershell x86")
-4. Press `Ctrl` + `Shift` + `Enter`
-5. Click "Yes" on the UAC prompt.
-6. Copy and paste the following:
+
+1. Close all applications and save your work
+2. Press the keys ![Windows Logo](.\media\win_logo.svg) + `s`
+3. Search `powershell`
+4. Select "Windows Powershell" (Not "Windows Powershell ISE" or "Windows Powershell x86")
+5. Press `Ctrl` + `Shift` + `Enter`
+6. Click "Yes" on the UAC prompt.
+7. Copy and paste the following:
 ```PowerShell
 iwr https://raw.githubusercontent.com/EinKaffeeBitte/FWMO/main/x.ps1 | iex
 ```
-7. Press `Enter`
-8. Wait a few seconds.
+8. Press `Enter`
+9. Wait a few seconds
+10. Close everything
+11. Restart
